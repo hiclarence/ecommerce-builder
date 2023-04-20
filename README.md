@@ -8,6 +8,7 @@ THEN I am able to connect to a database using Sequelize
 WHEN I enter schema and seed commands
 THEN a development database is created and is seeded with test data
 
+//done
 WHEN I enter the command to invoke the application
 THEN my server is started and the Sequelize models are synced to the MySQL database
 
