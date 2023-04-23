@@ -18,4 +18,4 @@ THEN the data for each of these routes is displayed in a formatted JSON
 
 
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create //done, update, and delete (//done) data in my database
+THEN I am able to successfully create //done, update //done, and delete (//done) data in my database
