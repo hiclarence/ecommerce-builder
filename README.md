@@ -1,21 +1,25 @@
 # E-commerce Back End Starter Code
-//done
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
 
-//done
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
+## Description
 
-//done
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
+This application leverages sequelize and express to create the backend routing for an ecommerce site. As an admin of the site, I want to connect to the database using SQL and use a REST API  to
+- View all the products, categories, and tags on one page and any specific ID's
+- Successfully create, update, and delete data in my database
 
-//done
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
+## Installation
 
+To install, please run
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create //done, update //done, and delete (//done) data in my database
+`node server.js`
+
+## Technologies Used
+
+- MySQL
+- Node JS
+- Express JS
+- Sequelize
+
+## Video Link
+
+- [Testing Product and Category Routes](https://www.loom.com/share/22e74be0e7da438ebb0d177f56a63894)
+- [Testing Tag Routes](https://www.loom.com/share/3d1b6155f1f54303b4a9bbc298749f84)
